@@ -15,3 +15,11 @@ func TestSub(t *testing.T) {
 		t.Errorf("Resultado da soma e invalido: Resultado %d. O valor esperado e %d", total, 30)
 	}
 }
+
+func TestMul(t *testing.T) {
+	total := Mult(5, 5)
+	if total != 25 {
+		t.Errorf("Resultado da soma e invalido: Resultado %d. O valor esperado e %d", total, 25)
+	}
+
+}

@@ -14,3 +14,7 @@ func Soma(a, b int) int {
 func Sub(a, b int) int {
 	return a - b
 }
+
+func Mult(a, b int) int {
+	return a * b
+}
