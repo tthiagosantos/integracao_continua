@@ -31,4 +31,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: tthiagosantos/integracao_continua:latest
+          tags: thiagopsantoscontas/integracao_continua:latest
